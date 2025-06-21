@@ -219,6 +219,29 @@ variable "secret_key" {
 
 ![image](https://github.com/user-attachments/assets/87fded07-b43e-4998-956c-38fe7e077f63)
 
+# Проверка 
+
+Для проверки подключаемся к серверу по ssh: `ssh ubuntu@158.160.40.64`
+
+После устанавливаем yc и подключаемся через наш QAuth токен. 
+
+Теперь смотрим на наши ресурсы:
+
+`yc compute instance list` - VM
+
+![image](https://github.com/user-attachments/assets/75d732e9-a89c-4e01-ab47-e85e87ae680f)
+ 
+`yc vpc subnet list` - подсети 
+
+![image](https://github.com/user-attachments/assets/3f220857-ce15-41a2-86fd-354b57088503)
+
+`yc storage bucket list` - storage bucket хранилище
+
+![image](https://github.com/user-attachments/assets/17aa5248-87e0-4387-968c-ba99154eb89d)
+
+
+# Заключение 
+
 На этом закончим. Резюмируя, хочется сказать что Terraform позволяет автоматизировать развертывание облачных ресурсов, сокращая время настройки, что хорошо показыает принцип IaC. 
 Я смог и научился:
 Установить и настроить Terraform для работы с Yandex Cloud. Создал конфигурационные файлы для декларативного описания инфраструктуры. Развернул виртуальную машину в Yandex Cloud с использованием Terraform. Настроил SSH-доступ для безопасного подключения к ВМ.
