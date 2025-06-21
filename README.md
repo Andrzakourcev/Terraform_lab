@@ -14,11 +14,17 @@
 ##  Структура проекта
 
 terraform-yc-lab/
+
 ├── main.tf # Основные ресурсы
+
 ├── variables.tf # Описание переменных
+
 ├── terraform.tfvars # Значения переменных 
+
 ├── outputs.tf # Вывод IP-адреса
+
 ├── metadata.sh # Скрипт инициализации на ВМ
+
 └── static/ 
 
 ## Теория 
