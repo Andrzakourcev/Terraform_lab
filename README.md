@@ -239,6 +239,9 @@ variable "secret_key" {
 
 ![image](https://github.com/user-attachments/assets/17aa5248-87e0-4387-968c-ba99154eb89d)
 
+Чтобы удалить все ресурсы пишем `terraform destroy`.
+
+![image](https://github.com/user-attachments/assets/767fb5be-d535-4f97-9f3a-4fb6f221430c)
 
 # Заключение 
 
